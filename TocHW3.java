@@ -4,7 +4,7 @@ import org.json.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class TocHW3 {
+public class TocHw3 {
 	public static void main(String[] args) {		
 		String url = args[0];
 		String TOWN = args[1];
@@ -18,7 +18,7 @@ public class TocHW3 {
 			String address,town;
 
 
-			TocHW3 hw3 = new TocHW3();
+			TocHw3 hw3 = new TocHw3();
 			hw3.getURLstr(url);
 			JSONArray jsonRealPrice = new JSONArray(new JSONTokener(
 					new FileReader(new File("URL.txt"))));
